@@ -13,6 +13,11 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-size: 1.2em;
+}
+
+iframe {
+  text-align: center;
 }
 
 .button-collapse {
@@ -52,4 +57,12 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+#contact-list {
+  font-size: 1.2em
+}
+
+.right-line-item {
+  text-align: center;
 }
