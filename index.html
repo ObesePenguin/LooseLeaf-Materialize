@@ -15,7 +15,7 @@
     <body>
         <nav class="white" role="navigation">
             <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo">Loose Leaf Store</a>
+                <a id="logo-container" href="#" class="brand-logo hide-on-med-and-down">Loose Leaf Store</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#classes">Classes</a></li>
                     <li><a href="#contact">Contact Us</a></li>
@@ -30,6 +30,7 @@
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a></a></a>
             </div>
         </nav>
+
 
         <div id="index-banner" class="parallax-container">
             <div class="section no-pad-bot">
@@ -47,34 +48,87 @@
 
               <div class="row">
                 <div class="col s12 center">
-                  <h3><i class="mdi-maps-local-florist green-text"></i></h3>
                   <h4>Upcoming Classes</h4>
-                  <ul class="tabs">
-                    <li class="tab col s3"><a class="active" href="#test1">June 16</a></li>
-                    <li class="tab col s3"><a href="#test2">July 10</a></li>
-                    <li class="tab col s3"><a href="#test3">July 13</a></li>
-                    <li class="tab col s3"><a href="#test4">July 20</a></li>
-                  </ul>
-                </div>
-                <div id="test1" class="col s12 center">
-                  <h5>Autumn Series Wild Bouquet</h5>
-                  <p>Date: Thurs 16th June<br>Time: 6:30-8:30PM</p>
-                  <div><a href="http://www.trybooking.com/131251" class="waves-effect waves-light btn">Book Now</a></div>
-                </div>
-                <div id="test2" class="col s12 center">
-                  <h5>Mother's Day Bouquet</h5>
-                  <p>Date: Sun 10th July<br>Time: 10:30-12PM</p>
-                  <div><a href="http://www.trybooking.com/131317" class="waves-effect waves-light btn">Book Now</a></div>
-                </div>
-                <div id="test3" class="col s12 center">
-                  <h5>Autumn Series Wreath</h5>
-                  <p>Date: Wed 13th July<br>Time: 6:30-8:30PM</p>
-                  <div><a href="http://www.trybooking.com/131322" class="waves-effect waves-light btn">Book Now</a></div>
-                </div>
-                <div id="test4" class="col s12 center">
-                  <h5>Autumn Series Table Arrangement</h5>
-                  <p>Date: Wed 20th July<br>Time: 6:30-8:30PM</p>
-                  <div><a href="http://www.trybooking.com/131328" class="waves-effect waves-light btn">Book Now</a></div>
+                  <div class="hide-on-small-and-down">
+                      <!--<h3><i class="mdi-maps-local-florist green-text"></i></h3>-->
+                      <ul class="tabs">
+                        <li class="tab col m3"><a href="#class1">June 16</a></li>
+                        <li class="tab col m3"><a href="#class2">July 10</a></li>
+                        <li class="tab col m3"><a href="#class3">July 13</a></li>
+                        <li class="tab col m3"><a href="#class4">July 20</a></li>
+                      </ul>
+
+                    <div id="class1" class="col s12 center">
+                      <h5>Autumn Series Wild Bouquet</h5>
+                      <p>Date: Thurs 16th June<br>Time: 6:30-8:30PM</p>
+                      <div><a href="http://www.trybooking.com/131251" class="waves-effect waves-light btn">Book Now</a></div>
+                    </div>
+                    <div id="class2" class="col s12 center">
+                      <h5>Mother's Day Bouquet</h5>
+                      <p>Date: Sun 10th July<br>Time: 10:30-12PM</p>
+                      <div><a href="http://www.trybooking.com/131317" class="waves-effect waves-light btn">Book Now</a></div>
+                    </div>
+                    <div id="class3" class="col s12 center">
+                      <h5>Autumn Series Wreath</h5>
+                      <p>Date: Wed 13th July<br>Time: 6:30-8:30PM</p>
+                      <div><a href="http://www.trybooking.com/131322" class="waves-effect waves-light btn">Book Now</a></div>
+                    </div>
+                    <div id="class4" class="col s12 center">
+                      <h5>Autumn Series Table Arrangement</h5>
+                      <p>Date: Wed 20th July<br>Time: 6:30-8:30PM</p>
+                      <div><a href="http://www.trybooking.com/131328" class="waves-effect waves-light btn">Book Now</a></div>
+                    </div>
+                  </div>
+
+                  <div class="hide-on-med-and-up">
+                    <br>
+                    <ul class="collapsible" data-collapsible="accordion">
+                      <li>
+                        <div class="collapsible-header">
+                          <p class="collapsible-date-transform">June 16</p>
+                        </div>
+                        <div class="collapsible-body">
+                          <h5>Autumn Series Wild Bouquet</h5>
+                          <p>Date: Thurs 16th June<br>Time: 6:30-8:30PM</p>
+                          <div><a href="http://www.trybooking.com/131251" class="waves-effect waves-light btn">Book Now</a></div>
+                          <br>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="collapsible-header">
+                          <p class="collapsible-date-transform">July 10</p>
+                        </div>
+                        <div class="collapsible-body">
+                          <h5>Mother's Day Bouquet</h5>
+                          <p>Date: Sun 10th July<br>Time: 10:30-12PM</p>
+                          <div><a href="http://www.trybooking.com/131317" class="waves-effect waves-light btn">Book Now</a></div>
+                          <br>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="collapsible-header">
+                          <p class="collapsible-date-transform">July 13</p>
+                        </div>
+                        <div class="collapsible-body">
+                          <h5>Autumn Series Wreath</h5>
+                          <p>Date: Wed 13th July<br>Time: 6:30-8:30PM</p>
+                          <div><a href="http://www.trybooking.com/131322" class="waves-effect waves-light btn">Book Now</a></div>
+                          <br>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="collapsible-header">
+                          <p class="collapsible-date-transform">July 20</p>
+                        </div>
+                        <div class="collapsible-body">
+                          <h5>Autumn Series Table Arrangement</h5>
+                          <p>Date: Wed 20th July<br>Time: 6:30-8:30PM</p>
+                          <div><a href="http://www.trybooking.com/131328" class="waves-effect waves-light btn">Book Now</a></div>
+                          <br>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -88,25 +142,25 @@
 
               <div class="row">
                 <div class="col s12 center">
-                  <h3><i class="mdi-content-send green-text"></i></h3>
+              <!--    <h3><i class="mdi-content-send green-text"></i></h3> -->
                   <h4>Contact Us</h4>
                 </div>
                 <div class="col s12 m6">
                     <div class="icon-block">
                       <ul id="contact-list">
-                        <li class="black-text right-line-item">
-                          <a href="tel:0399946865" <i class="small mdi-communication-call"></i> (03) 9994 6865</a>
+                        <li class="right-line-item">
+                          <a class="contacts-links" href="tel:0399946865"><i class="small mdi-communication-call"></i> (03) 9994 6865</a>
                         </li>
-                        <li class="black-text right-line-item">
-                          <a href="mailto:info@looseleafstore.com.au"<i class="small mdi-communication-email"></i> info@looseleafstore.com.au</a>
+                        <li class="right-line-item">
+                          <a class="contacts-links" href="mailto:info@looseleafstore.com.au"><i class="small mdi-communication-email"></i> info@looseleafstore.com.au</a>
                         </li>
-                        <li class="black-text right-line-item">
-                          <a href="https://www.google.com/maps?ll=-37.799123,144.985963&z=15&t=m&hl=en-US&gl=AU&mapclient=embed&q=31+Sackville+St+Collingwood+VIC+3066" <i class="small mdi-communication-location-on"></i> 31 Sackville St, Collingwood</a>
+                        <li class="right-line-item">
+                          <a class="contacts-links" href="https://www.google.com/maps?ll=-37.799123,144.985963&z=15&t=m&hl=en-US&gl=AU&mapclient=embed&q=31+Sackville+St+Collingwood+VIC+3066"><i class="small mdi-communication-location-on"></i> 31 Sackville St, Collingwood</a>
                         </li>
                       </ul>
                     </div>
                 </div>
-                <div class="col s12 m6">
+                <div class="col s12 m6 left">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.6282936227944!2d144.98594199999997!3d-37.79875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6431f02aea0d5%3A0x27880a3f3c788295!2s31+Sackville+St%2C+Collingwood+VIC+3066!5e0!3m2!1sen!2sau!4v1433318332480" width="400" height="300" frameborder="0" style="border:0"></iframe>
                 </div>
               </div>
@@ -146,7 +200,7 @@
             </div>
             <div class="footer-copyright">
               <div class="container">
-              Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+              <!-- Saved for copyright -->
               </div>
             </div>
           </footer>
