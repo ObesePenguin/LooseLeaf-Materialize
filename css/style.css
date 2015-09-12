@@ -16,6 +16,14 @@ p {
   font-size: 1.2em;
 }
 
+iframe {
+  width: 100%;
+}
+
+input.email {
+  background-color: white;
+}
+
 .contacts-links {
   color: #226C2E;
 }
